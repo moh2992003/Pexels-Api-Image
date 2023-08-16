@@ -1,0 +1,7 @@
+
+.bg-special {
+    background-image: url(./Images/wallpaperflare.com_wallpaper.jpg);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

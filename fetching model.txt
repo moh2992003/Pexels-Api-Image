@@ -1,0 +1,20 @@
+const apiKey = '9aCAiYPRc41iKsMRizgcmVhVLh0xjb1FPtCHp0LMNcwbQgnPZxjaPdrY'; // Replace with your actual API key
+const apiUrl = 'https://api.pexels.com/v1/curated?page=2&per_page=40';
+
+fetch(apiUrl, {
+  method: 'GET',
+  headers: {
+    'Authorization': apiKey,
+  }
+})
+.then(response => response.json())
+.then(data => {
+  // Handle the API response data here
+})
+.catch(error => {
+  // Handle errors here
+});
+
+
+https://templatemo.com/live/templatemo_520_highway
+
