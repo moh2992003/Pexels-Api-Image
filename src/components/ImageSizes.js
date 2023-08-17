@@ -33,7 +33,7 @@ const ImageSizes = ({ image }) => {
 
   return (
     <div className="mt-4">
-      <p className="text-xl font-semibold mb-2">Choose resolution</p>
+      <p className="text-xl font-semibold mb-2">Choose dimensions</p>
       <div className="flex flex-wrap gap-2">
         {sizes.map((size) => (
           <button
